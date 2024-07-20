@@ -18,6 +18,17 @@
         <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>firedev.nexus</id>
+            <url>https://repo.firedev.uk/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>firedev.nexus</id>
+            <url>https://repo.firedev.uk/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>papermc</id>
