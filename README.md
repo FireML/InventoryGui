@@ -14,18 +14,18 @@ You can easily depend on the library with maven.
 ```xml
 <repositories>
     <repository>
-        <id>minebench-repo</id>
-        <url>https://repo.minebench.de/</url>
+        <id>firedev-repo</id>
+        <url>https://repo.firedev.uk/repositories/maven-public/</url>
     </repository>
 </repositories>
 ```
 ```xml
 <dependencies>
     <dependency>
-        <groupId>de.themoep</groupId>
+        <groupId>uk.firedev</groupId>
         <artifactId>inventorygui</artifactId>
         <!--The following version may not be the latest. Check it before using.-->
-        <version>1.6.3-SNAPSHOT</version>
+        <version>1.6.4-1.21.4-SNAPSHOT</version>
         <scope>compile</scope>
     </dependency>
 </dependencies>
